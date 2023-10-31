@@ -4,5 +4,5 @@ valor a essa variável. Crie a validação necessária:
 "ISENTO DE IR";
 - caso contrário insira "TRIBUTADO NO IR". */
 
-const salary = 1400
+const salary = Number(prompt("insira seu salario"))
 document.write (salary < 1903.98?`ISENTO DE IR`:`TRIBUTADO NO IR`)
