@@ -4,7 +4,7 @@ doar sangue ou não. Use alguns dos operadores lógicos OU (||) e E
 (&&). */
 
 const bloodDonationAge = Number(prompt(`12. Digite sua idade: `))
-if (bloodDonationAge >= 18 || bloodDonationAge <= 67) {
+if (bloodDonationAge >= 18 && bloodDonationAge <= 67) {
     document.write(`12. Em sua idade de ${bloodDonationAge} anos, você pode doar sangue! <br><br>`)
 } else {
     document.write(`12. Em sua idade de ${bloodDonationAge} anos, você não pode doar sangue. <br><br>`)
